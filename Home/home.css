@@ -1,0 +1,129 @@
+* {
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: #00152e;
+}
+header {
+  height: 100vh;
+}
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navItemsList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+  padding: 10px;
+}
+
+li {
+  margin: 10px;
+  padding: 10px;
+}
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+a:hover{
+  text-decoration: underline;
+  color: whitesmoke;
+  opacity: 0.5;
+}
+a:active{
+
+  text-decoration: underline;
+  color: whitesmoke;
+  opacity: 0.5;
+}
+
+
+
+.introdution {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.introImage{
+    width: 45%;
+}
+
+/* 
+.name{
+
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    text-align: center;
+    padding: 5px;
+    background-color: #09c;
+    width: 30%;
+    opacity: 0.9;
+} */
+
+#personalData {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.personalImage{
+    width: 40%;
+}
+
+p{
+  padding: 5px;
+}
+#top{
+
+  width: 35px;
+  height: 35px;
+  background-color: rgba(93, 92, 165, 0.5);
+  border-radius: 50%;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  padding-left: 2px;
+  padding-top: 1px;
+
+}
+textarea{
+  resize: none;
+}
+.experienceTag{
+  margin-right: 12px;
+}
+.works-images img:hover {
+  /* background-color: rgba(0, 0, 0, 0.7); */
+  filter: brightness(50%);
+  background-blend-mode: multiply;
+  /* opacity: 0.5; */
+  transform: scale(1.1);
+}
+.works-images img{
+  transition: all 1s;
+  border-radius: 5px;
+}
+
+.ham-menu, .ham-menu span {
+  -webkit-transition: all 500ms ease-out;
+  -moz-transition: all 500ms ease-out;
+  -o-transition: all 500ms ease-out;
+  transition: all 500ms ease-out;
+  cursor: pointer;
+}
+
+.ham-menu {border: 2px solid #666; width: 32px; padding: 1px; border-radius: 3px; position: absolute; left: 10px; top: 10px; }
+.ham-menu .line {border: 3px solid #666; line-height: 0; font-size: 0; display: block; margin: 2px;}
+.ham-menu .line.small {border-width: 2px;}
+
+.ham-menu:hover {border-color: #99f;}
+.ham-menu:hover span {border-color: #ccf;}
